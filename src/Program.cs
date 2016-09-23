@@ -22,7 +22,7 @@ namespace video_ruler
     {
       if (args.Length != 1 || !Directory.Exists(args[0]))
       {
-        Console.WriteLine("Usage: video-ruler <Directory>");
+        Console.WriteLine("Usage: video-ruler <directory>");
         return;
       }
 
